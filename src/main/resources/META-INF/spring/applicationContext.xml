@@ -8,8 +8,8 @@
        http://cxf.apache.org/jaxrs http://cxf.apache.org/schemas/jaxrs.xsd
        http://camel.apache.org/schema/spring http://camel.apache.org/schema/spring/camel-spring.xsd">
 
-    <cxf:rsServer id="restService" address="http://localhost:9000/employeeservice"
-                  serviceClass="com.javainuse.beans.EmployeeServiceResource">
+    <cxf:rsServer id="restService" address="http://localhost:9000/hello"
+                  serviceClass="com.app.fuse.Service">
     </cxf:rsServer>
 
     <bean id="processor" class="com.app.fuse.Processor" />

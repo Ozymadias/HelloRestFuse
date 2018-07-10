@@ -10,7 +10,7 @@ public class Service {
     public Service() {}
 
     @GET
-    @Path("/employees/{name}")
+    @Path("/{name}")
     public String getCustomer(@PathParam("name") String name) {
         return null;
     }
